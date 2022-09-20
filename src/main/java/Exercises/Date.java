@@ -33,6 +33,7 @@ class Date {
         System.out.printf("%d.%d.%d", day, month, year);
     }
 }
+
 class DateTest{
 public static void main(String[]args){
  Scanner userInput = new Scanner(System.in);
@@ -52,5 +53,5 @@ public static void main(String[]args){
  System.out.println("Rok: " + myDate.getYearDate());
  System.out.println("Kompletna data: ");
  myDate.displayDate();
-}
+   }
 }
